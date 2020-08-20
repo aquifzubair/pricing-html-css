@@ -124,12 +124,11 @@ table {
   border-spacing: 0;
 }
 
-
 body {
   background-color: black;
   font-family: Montserrat;
-  font-size: .8em;
-  color:hsl(232, 13%, 33%);
+  font-size: 0.8em;
+  color: hsl(232, 13%, 33%);
 }
 
 .main-container {
@@ -149,14 +148,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .item1 {
   align-self: center;
   font-weight: 700;
   font-size: 1em;
 }
+
 .item2 {
   display: flex;
-  margin-top: 1em; 
+  margin-top: 1em;
   justify-content: center;
 }
 
@@ -183,7 +184,7 @@ body {
 }
 
 .toggle-btn.monthly {
-	background-image: linear-gradient(
+  background-image: linear-gradient(
     to right,
     hsl(236, 72%, 79%),
     hsl(228, 45%, 44%)
@@ -191,6 +192,85 @@ body {
 }
 
 .toggle-btn.monthly > .inner-btn {
-	margin-left:1.1em;
+  margin-left: 1.1em;
 }
 
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.basic {
+  background-color: white;
+  border-radius: 0.5em 0 0 0.5em;
+  display: flex;
+  height: 20em;
+  width: 17em;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.professional {
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(228, 45%, 44%)
+  );
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  height: 22em;
+  width: 17em;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 1em;
+}
+
+.master {
+  background-color: white;
+  border-radius: 0 0.5em 0.5em 0;
+  height: 20em;
+  width: 17em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.btn-size {
+  font-size: 0.8em;
+  border-radius: 0.3em;
+  padding: 0.6em 2.8em;
+}
+
+.color-blue {
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(228, 45%, 44%)
+  );
+  color: white;
+}
+.color-white {
+  background-color: white;
+  color: hsl(237, 63%, 64%);
+}
+
+.dollar-size {
+  font-size: 0.5em;
+}
+
+.font-bold {
+  font-weight: 700;
+}
